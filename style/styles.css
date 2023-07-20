@@ -1,6 +1,6 @@
 :root {
-  --primary-color: #f8cca5;
-  --secondary-color: #2e1d42;
+  --primary-color: #f6e4ad;
+  --secondary-color: #6003c9;
 }
 
 body {
@@ -20,6 +20,11 @@ p {
 .primary-links a {
   color: var(--secondary-color);
   margin: 0 10px;
+  text-decoration: none;
+}
+.primary-links :hover {
+  text-decoration: underline;
+  color: #230247;
 }
 
 .croissant-photo {
